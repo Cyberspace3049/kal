@@ -1,0 +1,36 @@
+
+
+Android 12L & Android 13:
+
+./adb shell "settings put global settings_enable_monitor_phantom_procs false"
+
+***********
+
+
+pkg update && pkg upgrade && pkg install python && pkg install git && git clone https://github.com/freetheorange905/adb-fastboot-termux.git && af.py
+
+
+
+***********
+
+ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 2147483647"
+
+
+*********
+
+ adb shell settings put global settings_enable_monitor_phantom_procs false
+
+
+
+
+Also u can run adb pair your ip:port
+
+Adb connect ip:port
+
+
+But u must frist enable usb debuging and wireless debug to take pair number from there 
+All this when u able dev options......
+
+
+
+
